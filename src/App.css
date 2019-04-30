@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-
+body {
+  background-color: rgb(255, 115, 0);
+}
 .Navbar {
   font-family: 'Audiowide', cursive;
   font-size: 2em;
@@ -15,4 +17,29 @@
 
 #battery {
   color: rgb(255, 145, 0);
+}
+
+#square-wrap {
+  height: 400px;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -200px;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+}
+
+#info {
+  height: 400px;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -200px;
+  z-index: 10;
+  color: white;
+  position: absolute;
 }

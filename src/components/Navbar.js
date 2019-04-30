@@ -14,13 +14,13 @@ function Navbar() {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="#"><i className="fas fa-battery-full" id="battery"></i> Alex Ibragimov</a>
+            <a className="navbar-brand" href="/"><i className="fas fa-battery-full" id="battery"></i> Alex Ibragimov</a>
           </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/projects">Projects</a></li>
               <li className="dropdown">
                 <a href="#" className="dropdown-toggle" data-toggle="dropdown">Contact Me<b className="caret"></b></a>
                 <ul className="dropdown-menu">
