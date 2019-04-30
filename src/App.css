@@ -4,9 +4,15 @@
   font-family: 'Audiowide', cursive;
   font-size: 2em;
 }
+
 .navbar-brand {
   font-size: 1em;
 }
+
 .dropdown-menu {
   font-size: 1em;
+}
+
+#battery {
+  color: rgb(255, 145, 0);
 }
