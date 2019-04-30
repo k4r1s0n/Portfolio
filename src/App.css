@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+.Navbar {
+  font-family: 'Audiowide', cursive;
+  font-size: 2em;
+}
+.navbar-brand {
+  font-size: 1em;
+}
+.dropdown-menu {
+  font-size: 1em;
+}
