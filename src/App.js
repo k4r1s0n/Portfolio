@@ -9,7 +9,7 @@ import Default from './components/Default';
 
 function App() {
   return (
-    <div>
+    <div id="wrap">
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home}/>
