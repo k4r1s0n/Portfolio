@@ -6,29 +6,36 @@ import logo from "../img/Facetune.jpg";
 export default class Home extends Component {
   render() {
     return (
-      <Spring
-        from={{opacity:0}}
-        to={{opacity:1}}
-      >
-        {props => (
-          <div style={props}>
-            <div id="home">
+      <div id="home">
+        <Spring
+          from={{opacity:0, marginTop: -50}}
+          to={{opacity:1, marginTop: 450}}>
+          {props => (
+            <div style={props}>
               <div id="square-wrap"></div>
               <div id="info" className="text-center">
                 <img id="logo" src={logo} alt="logo"/>
-                <h1>Hi I'm Alex</h1>
-                <h3>a web developer</h3>
+                <div id="home-text">
+                  <h1>Hi! I'm Alex</h1>
+                  <h3>a Web Developer</h3>
+                </div>
                 <div id="links">
-                  <a href="https://github.com/k4r1s0n" target="_blank"><i className="fab fa-github-square"></i></a>
-                  <a href="https://www.linkedin.com/in/alex-i-045b00134/" target="_blank"><i className="fab fa-linkedin"></i></a>
-                  <a href="mailto:oleksandr.ibrahimov@gmail.com" target="_blank"><i className="fas fa-envelope-square"></i></a>
+                  <a href="https://github.com/k4r1s0n" target="_blank" title="GitHub"><i className="fab fa-github-square"></i></a>
+                  <a href="https://www.linkedin.com/in/alex-i-045b00134/" target="_blank" title="LinkedIn"><i className="fab fa-linkedin"></i></a>
+                  <a href="mailto:oleksandr.ibrahimov@gmail.com" target="_blank" title="Email Me"><i className="fas fa-envelope-square"></i></a>
+                </div>
+                <div id="home-nav">
+                  <ul id="home-nav-list">
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
-          </div>
-        )}
-      </Spring>
-      
+          )}
+        </Spring>
+      </div>
     )
   }
 }

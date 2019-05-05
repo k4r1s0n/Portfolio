@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 @import url('https://fonts.googleapis.com/css?family=Mukta');
 
-
-#wrap {
+#home {
+  font-family: 'Audiowide', cursive;
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
 
-#wrap:after {
+#home:after {
   content: '';
   position: absolute;
   z-index: -5;
   left: 0;
   bottom: 0;
 }
-#wrap:before {
+#home:before {
   content: '';
   width: 100%;
   height: 100%;
@@ -31,7 +31,7 @@
   -ms-transform: translateZ(0) scale(1.0, 1.0);
   -o-transform: translateZ(0) scale(1.0, 1.0);
   transform: translateZ(0) scale(1.0, 1.0); 
-  background-image: url("./img/background.jpg");
+  background-image: url("./img/Mountains.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
@@ -61,6 +61,10 @@
   font-size: 1em;
 }
 
+#navbar-dropdown i {
+  color: #ff9100;
+}
+
 #battery {
   color: #ff9100;
 }
@@ -70,7 +74,6 @@
   width: 400px;
   left: 50%;
   margin-left: -200px;
-  top: 50%;
   margin-top: -200px;
   background-color: #2a2727;
   opacity: 0.5;
@@ -84,7 +87,6 @@
   width: 400px;
   left: 50%;
   margin-left: -200px;
-  top: 50%;
   margin-top: -200px;
   z-index: 1;
   color: white;
@@ -106,10 +108,50 @@
 
 #links a:hover {
   color: white;
-  font-size: 60px;
 }
 
-#home {
-  font-family: 'Audiowide', cursive;
+#about {
+  margin-top: 20%;
+  font-size: 30px; 
+} 
+
+#home-text {
+  font-family: 'Mukta', sans-serif;
 }
 
+#home-nav {
+  background: #ff9100;
+  height: 55px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#home-nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+#home-nav a {
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#home-nav a:hover {
+  color: white;
+}
+
+#about {
+  margin: 0;
+  background: url("./img/robot.jpg");
+  height: 1000px;
+  padding-top: 20vh;
+  font-size: 1.5em;
+  font-family: 'Mukta', sans-serif;
+  color: #a79292;
+}
