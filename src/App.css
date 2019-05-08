@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 @import url('https://fonts.googleapis.com/css?family=Mukta');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #home {
   font-family: 'Audiowide', cursive;
   position: relative;
@@ -89,7 +94,7 @@
   margin-left: -200px;
   margin-top: -200px;
   z-index: 1;
-  color: white;
+  color: #e6dbd3;
   position: absolute;
 }
 
@@ -103,7 +108,7 @@
 #links a {
   font-size: 50px;
   padding: 10px;
-  color: #ff9100; 
+  color: #143779; 
 }
 
 #links a:hover {
@@ -120,7 +125,7 @@
 }
 
 #home-nav {
-  background: #ff9100;
+  background: #143779;
   height: 55px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -140,6 +145,11 @@
   font-size: 25px;
   padding-left: 7px;
   padding-right: 7px;
+  transition: 0.5s all;
+}
+
+#links a {
+  transition: 0.5s all;
 }
 
 #home-nav a:hover {
@@ -148,10 +158,38 @@
 
 #about {
   margin: 0;
+  padding-left: 40px; 
   background: url("./img/robot.jpg");
-  height: 1000px;
-  padding-top: 20vh;
+  padding-top: 40px;
   font-size: 1.5em;
   font-family: 'Mukta', sans-serif;
   color: #a79292;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.about-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+#progressbars h4 {
+  padding-left: 3px;
+  font-size: 100%;
+}
+
+#progressbars i {
+  color: #ff9100;
+}
+
+.menu-item {
+  height: 60px;
+  width: 170px;
+  background-color:black;
+  margin: 20px;
+  padding-top: 0.6em;
+  color: white;
+  border: 5px solid #ff9100;
+  border-radius: 5px;
 }

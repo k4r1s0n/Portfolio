@@ -18,11 +18,11 @@ function Navbar() {
           </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav navbar-right">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/projects">Projects</a></li>
+              <li><a href="/">HOME</a></li>
+              <li><a href="/about">ABOUT</a></li>
+              <li><a href="/projects">PROJECTS</a></li>
               <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown">Contact Me<b className="caret"></b></a>
+                <a href="#" className="dropdown-toggle" data-toggle="dropdown">CONTACT ME<b className="caret"></b></a>
                 <ul className="dropdown-menu" id="navbar-dropdown">
                   <li><a href="https://github.com/k4r1s0n" target="_blank"><i className="fab fa-github-square"></i> GitHub</a></li>
                   <li><a href="https://www.linkedin.com/in/alex-i-045b00134/" target="_blank"><i className="fab fa-linkedin"></i> LinkedIn</a></li>

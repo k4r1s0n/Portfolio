@@ -16,8 +16,8 @@ export default class Home extends Component {
               <div id="info" className="text-center">
                 <img id="logo" src={logo} alt="logo"/>
                 <div id="home-text">
-                  <h1>Hi! I'm Alex</h1>
-                  <h3>a Web Developer</h3>
+                  <h1>Alex Ibragimov</h1>
+                  <h3>Front End Developer</h3>
                 </div>
                 <div id="links">
                   <a href="https://github.com/k4r1s0n" target="_blank" title="GitHub"><i className="fab fa-github-square"></i></a>
