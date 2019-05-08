@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-
 import React from 'react';
+import {Link} from "react-router-dom";
+import resume from '../Download/Areas of Knoledge PDF.pdf';
 
 function Navbar() {
   return (
@@ -33,6 +34,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
+      <Link to={resume} id="download-btn" className="btn btn-warning" target="_blank" >DOWNLOAD RESUME</Link>
     </div>
   );
 }

@@ -53,6 +53,14 @@
   0%{transform: scale(1)}
   100%{transform: scale(1.5)}
 }
+
+#download-btn {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  z-index: 20;
+}
+
 .Navbar {
   font-family: 'Audiowide', cursive;
   font-size: 2em;
@@ -112,11 +120,12 @@
 }
 
 #links a:hover {
+  padding: 5px 0 5px 10px;
   color: white;
 }
 
 #about {
-  margin-top: 20%;
+  margin-top: 10%;
   font-size: 30px; 
 } 
 
@@ -153,6 +162,7 @@
 }
 
 #home-nav a:hover {
+  padding: 10px 0 10px 10px;
   color: white;
 }
 
@@ -169,8 +179,6 @@
 }
 
 .about-title {
-  margin-top: 20px;
-  margin-bottom: 20px;
   color: black;
 }
 
