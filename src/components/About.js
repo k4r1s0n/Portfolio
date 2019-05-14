@@ -80,7 +80,7 @@ export default class About extends Component {
               <div className="row">
                 <div className="col-lg-6">
                   <h2 className="about-title text-center">ABOUT ME</h2>
-                  <p>I am a web developer currently living in Vancouver, Canada. With solid experience in front-end technologies, always focusing on quality, performance and semantic. My passion is being challenged and engaging with projects that require me to work outside my comfort and knowledge set. I keep learning new languages and development techniques.</p>
+                  <p>I am a front end developer currently living in Vancouver, Canada. With solid experience in front-end technologies, always focusing on quality, performance and semantic. My passion is being challenged and engaging with projects that require me to work outside my comfort and knowledge set. I keep learning new languages and development techniques.</p>
                   <h2 className="about-title text-center">KEY SKILLS</h2>
                 </div>
               </div>

@@ -7,7 +7,7 @@ import resume from '../Download/Areas of Knoledge PDF.pdf';
 function Navbar() {
   return (
     <div className="Navbar">
-      <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      {/* <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div className="container-fluid">
           <div className="navbar-header">
             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -33,7 +33,23 @@ function Navbar() {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Features</a>
+      <a class="nav-item nav-link" href="#">Pricing</a>
+      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </div>
+  </div>
+</nav>
+
+
       <Link to={resume} id="download-btn" className="btn btn-warning" target="_blank" >DOWNLOAD RESUME</Link>
     </div>
   );
