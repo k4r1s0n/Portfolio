@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import {Spring} from 'react-spring/renderprops';
 
 class ControlledCarousel extends React.Component {
   constructor(props, context) {
@@ -73,8 +74,18 @@ class ControlledCarousel extends React.Component {
 export default class Projects extends Component {
   render() {
     return (
-      <div>
-        <ControlledCarousel/>
+      <div id="projects" className="container-fluid">
+        <Spring
+          from={{opacity:0, marginTop: -500}}
+          to={{opacity:1, marginTop: 80}}>
+          {props => (
+            <div style={props}>
+              <div id="slider" className="mx-auto">
+                <ControlledCarousel/>
+              </div>
+            </div>
+          )}
+        </Spring>
       </div>
     )
   }
