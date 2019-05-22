@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #e3eeff;
+}
+
 #home {
   font-family: 'Audiowide', cursive;
   position: relative;
@@ -68,14 +72,6 @@
 
 .navbar-brand {
   font-size: 1em;
-}
-
-.dropdown-menu {
-  font-size: 1em;
-}
-
-#navbar-dropdown i {
-  color: #ff9100;
 }
 
 #battery {
@@ -178,7 +174,6 @@
 }
 
 #progressbars h4 {
-  padding-left: 3px;
   font-size: 1em;
 }
 
@@ -207,10 +202,9 @@
   border-radius: 5px;
 }
 
-#slider {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+
+/* #slider {
+  padding-top: 5%;
   height: 65%;
   width: 65%;
-}
+} */

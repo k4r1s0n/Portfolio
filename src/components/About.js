@@ -12,7 +12,7 @@ import {
 import CircularProgressbar from "react-circular-progressbar"
 import "react-circular-progressbar/dist/styles.css";
 
-const progressbarsStyle = {width: "100%", height: "100%", padding: "15%"};
+const progressbarsStyle = {width: 150, height: 150, marginLeft: "auto",  marginRight: "auto"};
 class AnimatedProgressbar extends Component {
   state = {
     isAnimated: false
@@ -84,7 +84,7 @@ export default class About extends Component {
               <div className="about-block">
                 <h2 className="about-title">KEY SKILLS</h2>
                 <div id="progressbars" className="row">
-                  <div className="col-sm-4 col-md-4 col-lg-2 text-center">
+                  <div className="col-sm-4 col-md-4 col-lg-2">
                     <h4><i class="fab fa-html5"></i> HTML</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -95,7 +95,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2 text-center">
+                  <div className="col-sm-4 col-md-4 col-lg-2">
                     <h4><i class="fab fa-css3-alt"></i> CSS</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -106,7 +106,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2 text-center">
+                  <div className="col-sm-4 col-md-4 col-lg-2">
                     <h4><i class="fab fa-js-square"></i> JavaScript</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -117,7 +117,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2 text-center">
+                  <div className="col-sm-4 col-md-4 col-lg-2">
                     <h4><i class="fas fa-check-square"></i> jQuery</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -128,7 +128,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2 text-center">
+                  <div className="col-sm-4 col-md-4 col-lg-2">
                     <h4><i class="fab fa-bootstrap"></i> Bootstrap</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -139,7 +139,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2 text-center">
+                  <div className="col-sm-4 col-md-4 col-lg-2">
                     <h4><i class="fab fa-react"></i> React</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
