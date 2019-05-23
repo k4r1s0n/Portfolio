@@ -1,10 +1,18 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react';
+import {Spring} from 'react-spring/renderprops';
 import Carousel from 'react-bootstrap/Carousel';
 import QuoteMachine from '../img/quote-machine.png';
 import MarkdownPreviewer from '../img/markdown-previewer.png';
 import Calculatop from '../img/javascript-calculator.png';
+import jQueryIcon from '../img/jquery-icon.png' ;
 
+const htmlLogo = <i class="fab fa-html5"></i>;
+const cssLogo = <i class="fab fa-css3-alt"></i>;
+const jSLogo = <i class="fab fa-js-square"></i>;
+const btstrpLogo = <i class="fab fa-bootstrap"></i>;
+const reactLogo = <i class="fab fa-react"></i>;
+export const jQLogo = <img src={jQueryIcon} alt="jQueryIcon" style={{height:20, width: 20, marginBottom:4, color:'#ff9100'}}></img>
 class ControlledCarousel extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -43,7 +51,7 @@ class ControlledCarousel extends React.Component {
           <Carousel.Caption>
             <div className="project-dscrptn container">
               <h3>Random Quote Generator</h3>
-              <h4>Technologies: HTML5, CSS3, Bootstrap, jQuery, JavaScript</h4>
+              <h4>Technologies: {htmlLogo}HTML5, {cssLogo}CSS3, {btstrpLogo}Bootstrap, {jQLogo}jQuery, {jSLogo}JavaScript</h4>
             </div>
             
           </Carousel.Caption>
@@ -60,7 +68,7 @@ class ControlledCarousel extends React.Component {
           <Carousel.Caption>
             <div className="project-dscrptn container">
               <h3>Markdown Previewer</h3>
-              <h4>Technologies: HTML5, CSS3, Bootstrap, React, JavaScript</h4>
+              <h4>Technologies: {htmlLogo}HTML5, {cssLogo}CSS3, {btstrpLogo}Bootstrap, {reactLogo}React, {jSLogo}JavaScript</h4>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -76,7 +84,7 @@ class ControlledCarousel extends React.Component {
           <Carousel.Caption>
             <div className="project-dscrptn container">
               <h3>JavaScript Calculatop</h3>
-              <h4>Technologies: HTML5, CSS3, React, JavaScript</h4>
+              <h4>Technologies: {htmlLogo}HTML5, {cssLogo}CSS3, {reactLogo}React, {jSLogo}JavaScript</h4>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -89,9 +97,18 @@ export default class Projects extends Component {
     return (
       <div id="projects" className="text-center">
         <h1>My Projects</h1>
-        <div id="slider" className="container">
-          <ControlledCarousel/>
-        </div>
+        <Spring
+          config={{ duration: 2000 }}
+          from={{opacity:0, marginTop: -1000}}
+          to={{opacity:1, marginTop: 80}}>
+          {props => (
+            <div style={props}>
+              <div id="slider" className="container">
+                <ControlledCarousel/>
+              </div>
+            </div>
+          )}
+        </Spring>
       </div>
       
       
