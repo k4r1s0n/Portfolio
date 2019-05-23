@@ -3,6 +3,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import resume from '../Download/Areas of Knoledge PDF.pdf';
+import Logo from '../img/MyLogoSm.png';
 
 function Navbar() {
   return (
@@ -34,8 +35,8 @@ function Navbar() {
           </div>
         </div>
       </nav> */}
-      <nav className="navbar navbar-expand-sm fixed-top navbar-light" style={{backgroundColor: "#e3eeff", height: 30}}>
-        <a className="navbar-brand" href="/"><i className="fas fa-battery-full" id="battery"></i> Alex Ibragimov</a>
+      <nav className="navbar navbar-expand-sm fixed-top navbar-light" style={{backgroundColor: "#e3eeff",}}>
+        <a className="navbar-brand" href="/"><i className="fas fa-battery-full" id="battery"></i><img src={Logo} alt="logo" style={{height:60}}></img></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -44,6 +45,7 @@ function Navbar() {
             <a className="nav-item nav-link" href="/">HOME</a>
             <a className="nav-item nav-link" href="/about">ABOUT</a>
             <a className="nav-item nav-link" href="/projects">PROJECTS</a>
+            <a className="nav-item nav-link" href="/contact">CONTACT</a>
           </div>
         </div>
       </nav>

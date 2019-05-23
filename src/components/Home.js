@@ -22,7 +22,7 @@ export default class Home extends Component {
                 <div id="links">
                   <a href="https://github.com/k4r1s0n" target="_blank" title="GitHub"><i className="fab fa-github-square"></i></a>
                   <a href="https://www.linkedin.com/in/alex-i-045b00134/" target="_blank" title="LinkedIn"><i className="fab fa-linkedin"></i></a>
-                  <a href="mailto:oleksandr.ibrahimov@gmail.com" target="_blank" title="Email Me"><i className="fas fa-envelope-square"></i></a>
+                  <a href="mailto:oleksandr.ibrahimov@gmail.com" target="_blank" title="Email"><i className="fas fa-envelope-square"></i></a>
                 </div>
                 <div id="home-nav">
                   <ul id="home-nav-list">

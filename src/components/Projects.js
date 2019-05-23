@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import QuoteMachine from '../img/quote-machine.png';
 import MarkdownPreviewer from '../img/markdown-previewer.png';
+import Calculatop from '../img/javascript-calculator.png';
 
 class ControlledCarousel extends React.Component {
   constructor(props, context) {
@@ -37,42 +38,46 @@ class ControlledCarousel extends React.Component {
             className="d-block w-100"
             src={QuoteMachine}
             alt="First slide"
-
           /></a>
           
           <Carousel.Caption>
-            <h3>Random Quote Machine</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <div className="project-dscrptn container">
+              <h3>Random Quote Generator</h3>
+              <h4>Technologies: HTML5, CSS3, Bootstrap, jQuery, JavaScript</h4>
+            </div>
+            
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <a href='https://codesandbox.io/s/markdownviewer-ojb9m' target="_blank">
             <img
             className="d-block w-100"
             src={MarkdownPreviewer}
             alt="Second slide"
-            
-            
           />
           </a>
-
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="project-dscrptn container">
+              <h3>Markdown Previewer</h3>
+              <h4>Technologies: HTML5, CSS3, Bootstrap, React, JavaScript</h4>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
-          <img
+          <a href='https://codesandbox.io/s/reactcalculator-38olq' target="_blank">
+            <img
             className="d-block w-100"
-            src="https://img2.goodfon.ru/wallpaper/nbig/4/bb/vesna-cvety-cvetenie-flower.jpg"
+            src={Calculatop}
             alt="Third slide"
           />
-
+          </a>
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <div className="project-dscrptn container">
+              <h3>JavaScript Calculatop</h3>
+              <h4>Technologies: HTML5, CSS3, React, JavaScript</h4>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -82,7 +87,14 @@ class ControlledCarousel extends React.Component {
 export default class Projects extends Component {
   render() {
     return (
-      <ControlledCarousel/>
+      <div id="projects" className="text-center">
+        <h1>My Projects</h1>
+        <div id="slider" className="container">
+          <ControlledCarousel/>
+        </div>
+      </div>
+      
+      
     )
   }
 }
