@@ -5,6 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import QuoteMachine from '../img/quote-machine.png';
 import MarkdownPreviewer from '../img/markdown-previewer.png';
 import Calculatop from '../img/javascript-calculator.png';
+import DrumMachine from '../img/drum-machine.png';
 import jQueryIcon from '../img/jquery-icon.png' ;
 
 const htmlLogo = <i class="fab fa-html5"></i>;
@@ -12,7 +13,7 @@ const cssLogo = <i class="fab fa-css3-alt"></i>;
 const jSLogo = <i class="fab fa-js-square"></i>;
 const btstrpLogo = <i class="fab fa-bootstrap"></i>;
 const reactLogo = <i class="fab fa-react"></i>;
-export const jQLogo = <img src={jQueryIcon} alt="jQueryIcon" style={{height:20, width: 20, marginBottom:4, color:'#ff9100'}}></img>
+export const jQLogo = <img src={jQueryIcon} alt="jQueryIcon" style={{marginBottom:4, color:'#ff9100'}}></img>
 class ControlledCarousel extends React.Component {
   constructor(props, context) {
     super(props, context);
@@ -88,6 +89,22 @@ class ControlledCarousel extends React.Component {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
+
+        <Carousel.Item>
+          <a href='https://codesandbox.io/s/github/k4r1s0n/Drum-Machine' target="_blank">
+            <img
+            className="d-block w-100"
+            src={DrumMachine}
+            alt="Fourth slide"
+          />
+          </a>
+          <Carousel.Caption>
+            <div className="project-dscrptn container">
+              <h3>Drum Machine</h3>
+              <h4>Technologies: {htmlLogo}HTML5, {cssLogo}CSS3, {btstrpLogo}Bootstrap, {reactLogo}React, {jSLogo}JavaScript</h4>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
     );
   }
@@ -110,8 +127,6 @@ export default class Projects extends Component {
           )}
         </Spring>
       </div>
-      
-      
     )
   }
 }

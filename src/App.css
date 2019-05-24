@@ -212,6 +212,11 @@ body {
   color: #ff9100;
 }
 
+.jq-logo img{
+  height: 30px;
+  width: 30px,
+}
+
 .about-block {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
@@ -235,7 +240,7 @@ body {
 #slider{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .project-dscrptn {
@@ -248,6 +253,11 @@ body {
   color: #ff9100;
 }
 
+.project-dscrptn img {
+  height: 20px;
+  width: 20px,
+}
+
 .carousel {
   border: 5px solid #ff9100;
   border-radius: 5px;
@@ -256,6 +266,10 @@ body {
 @media(max-width: 1190px) {
   .project-dscrptn h3, h4{
     font-size: 0.8em;
+  }
+  .project-dscrptn img {
+    height:12px;
+    width: 12px,
   }
 }
 
@@ -266,5 +280,9 @@ body {
   #projects h1 {
     margin-top: 50%;
     font-family: 'Audiowide', cursive;
+  }
+  .project-dscrptn img {
+    height:8px;
+    width: 8px,
   }
 }

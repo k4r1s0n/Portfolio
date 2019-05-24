@@ -11,6 +11,7 @@ import {
 } from "d3-ease";
 import CircularProgressbar from "react-circular-progressbar"
 import "react-circular-progressbar/dist/styles.css";
+import {jQLogo} from './Projects';
 
 const progressbarsStyle = {width: 150, height: 150, marginLeft: "auto",  marginRight: "auto"};
 class AnimatedProgressbar extends Component {
@@ -118,7 +119,7 @@ export default class About extends Component {
                   </div>
 
                   <div className="col-sm-4 col-md-4 col-lg-2">
-                    <h4><i class="fas fa-check-square"></i> jQuery</h4>
+                    <h4 className="jq-logo">{jQLogo} jQuery</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
                       percentage={50}
