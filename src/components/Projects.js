@@ -6,6 +6,7 @@ import QuoteMachine from '../img/quote-machine.png';
 import MarkdownPreviewer from '../img/markdown-previewer.png';
 import Calculatop from '../img/javascript-calculator.png';
 import DrumMachine from '../img/drum-machine.png';
+import PomodoroClock from '../img/pomodoro-clock.png';
 import jQueryIcon from '../img/jquery-icon.png' ;
 
 const htmlLogo = <i class="fab fa-html5"></i>;
@@ -91,7 +92,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codesandbox.io/s/github/k4r1s0n/Drum-Machine' target="_blank">
+          <a href='https://codesandbox.io/s/drummachine-gqlpw' target="_blank">
             <img
             className="d-block w-100"
             src={DrumMachine}
@@ -102,6 +103,22 @@ class ControlledCarousel extends React.Component {
             <div className="project-dscrptn container">
               <h3>Drum Machine</h3>
               <h4>Technologies: {htmlLogo}HTML5, {cssLogo}CSS3, {btstrpLogo}Bootstrap, {reactLogo}React, {jSLogo}JavaScript</h4>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <a href='https://codepen.io/k4r1s0n/full/LodMRP' target="_blank">
+            <img
+            className="d-block w-100"
+            src={PomodoroClock}
+            alt="Fifth slide"
+          />
+          </a>
+          <Carousel.Caption>
+            <div className="project-dscrptn container">
+              <h3>Pomodoro Clock</h3>
+              <h4>Technologies: {htmlLogo}HTML5, {cssLogo}CSS3, {btstrpLogo}Bootstrap, {jQLogo}jQuery, {jSLogo}JavaScript</h4>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
