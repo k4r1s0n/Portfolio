@@ -16,7 +16,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-item nav-link" href="/#">HOME</a>
+            <a className="nav-item nav-link" href="/#">HOM</a>
             <a className="nav-item nav-link" href="/#about">ABOUT</a>
             <a className="nav-item nav-link" href="/#projects">PROJECTS</a>
             <a className="nav-item nav-link" href="/#contact">CONTACT</a>
