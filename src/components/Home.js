@@ -26,7 +26,7 @@ export default class Home extends Component {
                 </div>
                 <div id="home-nav">
                   <ul id="home-nav-list">
-                    <li><a href="/#about">About</a></li>
+                    <li><a href="https://k4r1s0n.github.io/Portfolio/#/about">About</a></li>
                     <li><a href="/#projects">Projects</a></li>
                     <li><a href="/#contact">Contact</a></li>
                   </ul>
