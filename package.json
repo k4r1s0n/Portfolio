@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://k4r1s0n.github.io/Portfolio/",
+  "homepage": "https://k4r1s0n.github.io/Portfolio",
   "dependencies": {
     "axios": "^0.18.0",
     "d3-ease": "^1.0.5",
