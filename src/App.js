@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Switch, Route} from 'react-router-dom';
+import { HashRouter, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Home from './components/Home';
@@ -12,13 +12,16 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/projects" component={Projects}/>
-        <Route path="/contact" component={Contact}/>
-        <Route component={Default}/>
-      </Switch>
+      <HashRouter>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/projects" component={Projects}/>
+          <Route path="/contact" component={Contact}/>
+          <Route component={Default}/>
+        </Switch>
+      </HashRouter>
+      
     </div>
   );
 }
