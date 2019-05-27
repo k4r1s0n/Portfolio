@@ -16,7 +16,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/">HOME</Link>
+            <Link className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/">HOM</Link>
             <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/about">ABOUT</a>
             <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/projects">PROJECTS</a>
             <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/contact">CONTACT</a>
