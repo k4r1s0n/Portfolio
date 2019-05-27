@@ -125,7 +125,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codesandbox.io/embed/weatherapp-st5hv?fontsize=14&module=%2FREADME.md' target="_blank">
+          <a href="https://k4r1s0n.github.io/weather-app/" target="_blank">
             <img
             className="d-block w-100"
             src={WeatherApp}
