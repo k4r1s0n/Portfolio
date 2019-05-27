@@ -93,7 +93,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codesandbox.io/embed/drummachine-gqlpw?autoresize=1&fontsize=14&hidenavigation=1&view=preview' target="_blank">
+          <a href='https://k4r1s0n.github.io/Drum-Machine' target="_blank">
             <img
             className="d-block w-100"
             src={DrumMachine}
