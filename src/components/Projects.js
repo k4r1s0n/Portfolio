@@ -77,7 +77,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codesandbox.io/embed/reactcalculator-38olq?autoresize=1&fontsize=14&hidenavigation=1&view=preview' target="_blank">
+          <a href='https://k4r1s0n.github.io/React-Calculator' target="_blank">
             <img
             className="d-block w-100"
             src={Calculatop}
