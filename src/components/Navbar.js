@@ -9,7 +9,6 @@ function Navbar() {
   return (
     <div className="Navbar">
       <nav className="navbar navbar-expand-sm fixed-top navbar-light" style={{backgroundColor: "#e3eeff",}}>
-        <i className="fas fa-battery-full" id="battery"></i>
         <a className="navbar-brand" href="https://k4r1s0n.github.io/Portfolio/#/"><img src={Logo} className="img-fluid" alt="logo"></img></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
