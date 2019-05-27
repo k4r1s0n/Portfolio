@@ -22,7 +22,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <Link to="https://k4r1s0n.github.io/Portfolio/static/media/Areas%20of%20Knoledge%20PDF.7c425582.pdf" id="download-btn" className="btn btn-warning" target="_blank" >DOWNLOAD RESUME</Link>
+      <Link to="static/media/Areas%20of%20Knoledge%20PDF.7c425582.pdf" id="download-btn" className="btn btn-warning" target="_blank" >DOWNLOAD RESUME</Link>
     </div>
   );
 }
