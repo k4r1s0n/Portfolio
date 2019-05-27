@@ -72,9 +72,9 @@ body {
 }
 
 .navbar-brand {
-  font-size: 1em;
   transition: 0.5s all;
 }
+
 .navbar-brand:hover {
   padding: 5px 0 5px 10px !important;;
 }
