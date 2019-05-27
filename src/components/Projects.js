@@ -7,6 +7,7 @@ import MarkdownPreviewer from '../img/markdown-previewer.png';
 import Calculatop from '../img/javascript-calculator.png';
 import DrumMachine from '../img/drum-machine.png';
 import PomodoroClock from '../img/pomodoro-clock.png';
+import WeatherApp from '../img/weather-app.png';
 import jQueryIcon from '../img/jquery-icon.png' ;
 
 const htmlLogo = <i class="fab fa-html5"></i>;
@@ -60,7 +61,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codesandbox.io/s/markdownviewer-ojb9m' target="_blank">
+          <a href='https://codesandbox.io/embed/markdownviewer-ojb9m?autoresize=1&fontsize=14&hidenavigation=1&view=preview' target="_blank">
             <img
             className="d-block w-100"
             src={MarkdownPreviewer}
@@ -76,7 +77,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codesandbox.io/s/reactcalculator-38olq' target="_blank">
+          <a href='https://codesandbox.io/embed/reactcalculator-38olq?autoresize=1&fontsize=14&hidenavigation=1&view=preview' target="_blank">
             <img
             className="d-block w-100"
             src={Calculatop}
@@ -92,7 +93,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codesandbox.io/s/drummachine-gqlpw' target="_blank">
+          <a href='https://codesandbox.io/embed/drummachine-gqlpw?autoresize=1&fontsize=14&hidenavigation=1&view=preview' target="_blank">
             <img
             className="d-block w-100"
             src={DrumMachine}
@@ -119,6 +120,22 @@ class ControlledCarousel extends React.Component {
             <div className="project-dscrptn container">
               <h3>Pomodoro Clock</h3>
               <h4>Technologies: {htmlLogo}HTML5, {cssLogo}CSS3, {btstrpLogo}Bootstrap, {jQLogo}jQuery, {jSLogo}JavaScript</h4>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <a href='https://codesandbox.io/embed/weatherapp-st5hv?fontsize=14&module=%2FREADME.md' target="_blank">
+            <img
+            className="d-block w-100"
+            src={WeatherApp}
+            alt="Sixth slide"
+          />
+          </a>
+          <Carousel.Caption>
+            <div className="project-dscrptn container">
+              <h3>Weather App</h3>
+              <h4>Technologies: {htmlLogo}HTML5, {cssLogo}CSS3, {btstrpLogo}Bootstrap, {reactLogo}React, {jSLogo}JavaScript</h4>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
