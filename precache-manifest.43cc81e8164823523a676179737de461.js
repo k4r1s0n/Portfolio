@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65bee65525d92b4c03c3929719af0609",
+    "revision": "29b584439c13fba1487ede8abdffdbfa",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "5ebbe7c9427225aed30a",
+    "revision": "6c2b30e47156e7d5705c",
     "url": "/Portfolio/static/css/2.344a6b9d.chunk.css"
   },
   {
-    "revision": "dfd0603327a861bdc843",
+    "revision": "2f0c68a5a4f771adf48b",
     "url": "/Portfolio/static/css/main.40a196ab.chunk.css"
   },
   {
-    "revision": "5ebbe7c9427225aed30a",
-    "url": "/Portfolio/static/js/2.bd34ddac.chunk.js"
+    "revision": "6c2b30e47156e7d5705c",
+    "url": "/Portfolio/static/js/2.803bd99f.chunk.js"
   },
   {
-    "revision": "dfd0603327a861bdc843",
-    "url": "/Portfolio/static/js/main.7d0850f5.chunk.js"
+    "revision": "2f0c68a5a4f771adf48b",
+    "url": "/Portfolio/static/js/main.eb158888.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
     "url": "/Portfolio/static/js/runtime~main.132fbc8c.js"
-  },
-  {
-    "revision": "7c425582fa4e1a5e8efd2bf490bf8d6e",
-    "url": "/Portfolio/static/media/Areas of Knoledge PDF.7c425582.pdf"
   },
   {
     "revision": "9f25f13c43a5f4fceb59c29ac622dd6d",
