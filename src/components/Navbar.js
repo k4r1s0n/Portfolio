@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {Link} from "react-router-dom";
+import resume from '../Download/Areas of Knoledge PDF.pdf';
 import Logo from '../img/MyLogoSm.png';
 
 function Navbar() {
@@ -22,7 +23,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <Link to="static/media/Areas%20of%20Knoledge%20PDF.7c425582.pdf" id="download-btn" className="btn btn-warning" target="_blank" >DOWNLOAD RESUME</Link>
+      <Link to={resume} id="download-btn" className="btn btn-warning" target="_blank" >DOWNLOAD RESUME</Link>
     </div>
   );
 }
