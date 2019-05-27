@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {Link} from "react-router-dom";
-import resume from 'https://k4r1s0n.github.io/Portfolio/#/Portfolio/static/media/Areas%20of%20Knoledge%20PDF.7c425582.pdf';
+import resume from '../Download/Areas of Knoledge PDF.pdf';
 import Logo from '../img/MyLogoSm.png';
 
 function Navbar() {
