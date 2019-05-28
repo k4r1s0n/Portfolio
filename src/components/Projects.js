@@ -109,7 +109,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codepen.io/k4r1s0n/full/LodMRP' target="_blank">
+          <a href='https://k4r1s0n.github.io/Pomodoro-Clock' target="_blank">
             <img
             className="d-block w-100"
             src={PomodoroClock}
