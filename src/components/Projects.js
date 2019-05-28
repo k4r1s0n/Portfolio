@@ -61,7 +61,7 @@ class ControlledCarousel extends React.Component {
         </Carousel.Item>
 
         <Carousel.Item>
-          <a href='https://codesandbox.io/embed/markdownviewer-ojb9m?autoresize=1&fontsize=14&hidenavigation=1&view=preview' target="_blank">
+          <a href='https://k4r1s0n.github.io/markdown-previewer' target="_blank">
             <img
             className="d-block w-100"
             src={MarkdownPreviewer}
