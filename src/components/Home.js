@@ -12,7 +12,6 @@ export default class Home extends Component {
           to={{opacity:1, marginTop: 450}}>
           {props => (
             <div style={props}>
-              <div id="square-wrap"></div>
               <div id="info" className="text-center">
                 <img id="logo" src={logo} alt="logo"/>
                 <div id="home-text">

@@ -76,8 +76,21 @@ body {
 }
 
 .navbar-brand:hover {
-  padding: 5px 0 5px 10px !important;;
+  padding: 5px 0 5px 10px !important;
 }
+
+.navbar p {
+  color: #ffffff;
+  text-shadow: red 1px 1px 0, red -1px -1px 0, 
+               red -1px 1px 0, red 1px -1px 0;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color:#143779!important;
+  padding: 5px 0 5px 10px;
+  text-shadow: 7px 7px 10px rgba(0,0,0,0.5);
+}
+
 
 .navbar-nav a {
   color: #ff9100 !important;
@@ -87,24 +100,7 @@ body {
 .navbar-nav a:hover {
   padding: 5px 0 5px 10px !important;
   color: #143779 !important;
-}
-
-#battery {
-  color: #ff9100;
-}
-
-#square-wrap {
-  height: 400px;
-  width: 400px;
-  left: 50%;
-  margin-left: -200px;
-  margin-top: -200px;
-  background-color: #2a2727;
-  opacity: 0.5;
-  position: absolute;
-  z-index: 1;
-  border-radius: 20px;
-}
+} 
 
 #info {
   height: 400px;
@@ -113,17 +109,10 @@ body {
   margin-left: -200px;
   margin-top: -200px;
   z-index: 1;
-  color: #e6dbd3;
+  color: #143779;
   position: absolute;
-}
-
-@media (max-height: 570px) {
-  #square-wrap, #info {
-    top: 300px;
-  }
-  #home {
-    overflow: auto;
-  }
+  background-color: #b2c7e483;
+  border-radius: 20px;
 }
 
 #logo {
@@ -182,8 +171,28 @@ body {
   color: white;
 }
 
+@media (max-height: 570px) {
+  #info {
+    top: 280px;
+    height: 362px;
+  }
+  
+  #home {
+    overflow: auto;
+    height: 150vh;
+  }
+
+  #home-text h1, h3 {
+    font-size: 1.5em;
+  }
+
+  #home-nav {
+    margin-top: 0px;
+  }
+}
+
 #about {
-  padding-top: 5%;
+  padding-top: 100px;
   background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   height: 100%;
   font-size: 2em;
@@ -237,11 +246,17 @@ body {
   font-family: 'Audiowide', cursive;
 }
 
+@media (max-height: 570px) {
+  #projects h1 {
+    margin-top: 80px;
+    font-size: 1.5em;
+  }
+}
+
 #slider{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 70px;
-  transition: 0.5s all
+  transition: 0.5s all;
 }
 
 #slider:hover {
@@ -265,8 +280,9 @@ body {
 }
 
 .carousel {
-  border: 5px solid #ff9100;
+  border: 3px solid #ff9100;
   border-radius: 5px;
+  box-shadow: 7px 7px 10px rgba(0,0,0,0.5);
 }
 
 @media(max-width: 1190px) {
@@ -282,10 +298,6 @@ body {
 @media (max-width: 570px) {
   .project-dscrptn h3, h4{
     font-size: 0.5em;
-  }
-  #projects h1 {
-    margin-top: 50%;
-    font-family: 'Audiowide', cursive;
   }
   .project-dscrptn img {
     height:8px;

@@ -151,7 +151,7 @@ export default class Projects extends Component {
         <Spring
           config={{ duration: 2000 }}
           from={{opacity:0, marginTop: -1000}}
-          to={{opacity:1, marginTop: 80}}>
+          to={{opacity:1, marginTop: 0}}>
           {props => (
             <div style={props}>
               <div id="slider" className="container">
