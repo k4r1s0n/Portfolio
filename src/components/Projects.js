@@ -45,7 +45,7 @@ class ControlledCarousel extends React.Component {
         onSelect={this.handleSelect}
       >
         <Carousel.Item>
-          <a href='https://codepen.io/k4r1s0n/full/VRaEVm' target="_blank"><img
+          <a href='https://k4r1s0n.github.io/Random-Quote-Machine' target="_blank"><img
             className="d-block w-100"
             src={QuoteMachine}
             alt="First slide"
