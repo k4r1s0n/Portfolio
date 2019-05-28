@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.673cdcbb.chunk.css",
-    "main.js": "/Portfolio/static/js/main.7e38ab89.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.7e38ab89.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.1a0dd7bd.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1a0dd7bd.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
     "static/css/2.344a6b9d.chunk.css": "/Portfolio/static/css/2.344a6b9d.chunk.css",
     "static/js/2.cc15fab6.chunk.js": "/Portfolio/static/js/2.cc15fab6.chunk.js",
     "static/js/2.cc15fab6.chunk.js.map": "/Portfolio/static/js/2.cc15fab6.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.b529577918cf9e183d5734943d22a141.js": "/Portfolio/precache-manifest.b529577918cf9e183d5734943d22a141.js",
+    "precache-manifest.92dad0c7f671b2b38489b38d8e425955.js": "/Portfolio/precache-manifest.92dad0c7f671b2b38489b38d8e425955.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.344a6b9d.chunk.css.map": "/Portfolio/static/css/2.344a6b9d.chunk.css.map",
     "static/css/main.673cdcbb.chunk.css.map": "/Portfolio/static/css/main.673cdcbb.chunk.css.map",
@@ -21,7 +21,7 @@
     "static/media/javascript-calculator.png": "/Portfolio/static/media/javascript-calculator.7327e5df.png",
     "static/media/markdown-previewer.png": "/Portfolio/static/media/markdown-previewer.06067492.png",
     "static/media/pomodoro-clock.png": "/Portfolio/static/media/pomodoro-clock.48256880.png",
-    "static/media/quote-machine.png": "/Portfolio/static/media/quote-machine.3f7d7463.png",
+    "static/media/quote-machine.png": "/Portfolio/static/media/quote-machine.6b745150.png",
     "static/media/weather-app.png": "/Portfolio/static/media/weather-app.8d0306dc.png"
   }
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6319de4bc4f7d7b9c18e6f976d1529f",
+    "revision": "6afdc1b00f750c1716ec02361e4919a9",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.344a6b9d.chunk.css"
   },
   {
-    "revision": "0ada1be48d36f17ddd44",
+    "revision": "8064af85d03474c8e953",
     "url": "/Portfolio/static/css/main.673cdcbb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.cc15fab6.chunk.js"
   },
   {
-    "revision": "0ada1be48d36f17ddd44",
-    "url": "/Portfolio/static/js/main.7e38ab89.chunk.js"
+    "revision": "8064af85d03474c8e953",
+    "url": "/Portfolio/static/js/main.1a0dd7bd.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/pomodoro-clock.48256880.png"
   },
   {
-    "revision": "3f7d7463073106dde3bff1b4c65177d4",
-    "url": "/Portfolio/static/media/quote-machine.3f7d7463.png"
+    "revision": "6b7451506c8c3f9634bd6344d2f92755",
+    "url": "/Portfolio/static/media/quote-machine.6b745150.png"
   },
   {
     "revision": "8d0306dc94bb0ccc4e40efba34456f55",
