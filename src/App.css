@@ -64,6 +64,7 @@ body {
   right: 1.5%;
   bottom: 5%;
   z-index: 20;
+  font-size: 0.4em;
 }
 
 .Navbar {
@@ -107,7 +108,7 @@ body {
   width: 400px;
   left: 50%;
   margin-left: -200px;
-  margin-top: -200px;
+  margin-bottom: 200px;
   z-index: 1;
   color: #143779;
   position: absolute;
@@ -173,7 +174,7 @@ body {
 
 @media (max-height: 570px) {
   #info {
-    top: 280px;
+    top: 80px;
     height: 362px;
   }
   
@@ -229,6 +230,7 @@ body {
 .about-block {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
+  margin-bottom: 100px;
 }
 
 .menu-item {
@@ -303,4 +305,42 @@ body {
     height:8px;
     width: 8px,
   }
+}
+
+#email-wrap{
+  background-image: url("./img/contact-bg.jpg");
+  padding-bottom: 30px;
+  padding-top: 20px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+#contact-form  {
+  color: white;
+  width: 700px;
+  margin: 100px auto auto;
+  padding: 20px; 
+  background-color: #412323c2;
+  border-radius: 10px;
+}
+
+#contact-links-wrap{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%
+}
+
+#contact-links a {
+  font-size: 40px;
+  padding: 10px;
+  color: #143779; 
+  transition: 0.5s all;
+}
+
+#contact-links a:hover {
+  padding: 5px 0 5px 10px;
+  color: #ff9100;
 }

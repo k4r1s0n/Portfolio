@@ -6,10 +6,10 @@ import logo from "../img/Facetune.jpg";
 export default class Home extends Component {
   render() {
     return (
-      <div id="home">
+      <div id="home" className="container-fluid">
         <Spring
-          from={{opacity:0, marginTop: -50}}
-          to={{opacity:1, marginTop: 450}}>
+          from={{opacity:0, marginTop: "-50px"}}
+          to={{opacity:1, marginTop: "200px"}}>
           {props => (
             <div style={props}>
               <div id="info" className="text-center">
