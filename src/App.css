@@ -259,6 +259,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   transition: 0.5s all;
+  margin-bottom: 200px;
 }
 
 #slider:hover {
