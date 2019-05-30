@@ -146,7 +146,7 @@ class ControlledCarousel extends React.Component {
 export default class Projects extends Component {
   render() {
     return (
-      <div id="projects" className="text-center container-fluid">
+      <div id="projects" className="text-center container">
         <Spring
           config={{ duration: 2000 }}
           from={{opacity:0, marginTop: -1000}}

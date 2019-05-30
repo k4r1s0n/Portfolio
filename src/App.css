@@ -258,7 +258,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   transition: 0.5s all;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 #slider:hover {
@@ -285,6 +285,10 @@ body {
   border: 3px solid #ff9100;
   border-radius: 5px;
   box-shadow: 7px 7px 10px rgba(0,0,0,0.5);
+}
+
+.carousel-inner {
+  height: 95%;
 }
 
 @media(max-width: 1190px) {

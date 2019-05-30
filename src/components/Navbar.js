@@ -15,14 +15,14 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/">Home</a>
+            {/* <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/">Home</a>
             <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/about">About</a>
             <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/projects">Projects</a>
-            <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/contact">Contact</a>
-            {/* <a className="nav-item nav-link" href="/">Home</a>
+            <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/contact">Contact</a> */}
+            <a className="nav-item nav-link" href="/">Home</a>
             <a className="nav-item nav-link" href="/#about">About</a>
             <a className="nav-item nav-link" href="/#projects">Projects</a>
-            <a className="nav-item nav-link" href="/#contact">Contact</a> */}
+            <a className="nav-item nav-link" href="/#contact">Contact</a>
           </div>
         </div>
       </nav>
