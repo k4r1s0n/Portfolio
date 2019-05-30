@@ -147,11 +147,10 @@ export default class Projects extends Component {
   render() {
     return (
       <div id="projects" className="text-center">
-        <h1>My Projects</h1>
         <Spring
           config={{ duration: 2000 }}
           from={{opacity:0, marginTop: -1000}}
-          to={{opacity:1, marginTop: 0}}>
+          to={{opacity:1, marginTop: 120}}>
           {props => (
             <div style={props}>
               <div id="slider" className="container">

@@ -7,17 +7,17 @@ export default class Contact extends Component {
   
   render() {
     return (
-      <div>
+      <div id="contact-page">
         <div id="email-wrap" className="container-fluid">
-          <Form id="contact-form" name="input" method="POST" action="https://formspree.io/oleksandr.ibrahimov@gmail.com">
+          <Form id="contact-form" name="input" method="POST" action="https://formspree.io/oleksandr.ibrahimov@gmail.com" className="container">
             <div className="row">
-              <div className="col-6">
+              <div className="col-md-6 ">
                 <Form.Group>
                   <Form.Label>Your Name</Form.Label>
                   <Form.Control type="text" name="name"/>
                 </Form.Group>
               </div>
-              <div className="col-6">
+              <div className="col-md-6 ">
                 <Form.Group>
                   <Form.Label>Your Email</Form.Label>
                   <Form.Control type="email" name="email"/>

@@ -66,7 +66,14 @@ body {
   z-index: 20;
   font-size: 0.4em;
 }
-
+@media (max-width: 700px) {
+  #download-btn {
+    font-size: 0.3em;
+  }
+  .navbar p {
+    font-size: 0.5em;
+  }
+}
 .Navbar {
   font-family: 'Audiowide', cursive;
   font-size: 2em;
@@ -243,18 +250,6 @@ body {
   border-radius: 5px;
 }
 
-#projects h1 {
-  margin-top: 100px;
-  font-family: 'Audiowide', cursive;
-}
-
-@media (max-height: 570px) {
-  #projects h1 {
-    margin-top: 80px;
-    font-size: 1.5em;
-  }
-}
-
 #slider{
   margin-left: auto;
   margin-right: auto;
@@ -308,11 +303,14 @@ body {
   }
 }
 
+#contact-page {
+  margin-top: 120px;
+}
+
 #email-wrap{
   background-image: url("./img/contact-bg.jpg");
   padding-bottom: 30px;
-  padding-top: 20px;
-  height: 100%;
+  padding-top: 10px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -321,8 +319,7 @@ body {
 
 #contact-form  {
   color: white;
-  width: 700px;
-  margin: 100px auto auto;
+  margin: 30px auto auto;
   padding: 20px; 
   background-color: #412323c2;
   border-radius: 10px;
@@ -345,3 +342,4 @@ body {
   padding: 5px 0 5px 10px;
   color: #ff9100;
 }
+

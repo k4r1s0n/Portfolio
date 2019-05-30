@@ -8,8 +8,8 @@ export default class Home extends Component {
     return (
       <div id="home" className="container-fluid">
         <Spring
-          from={{opacity:0, marginTop: "-50px"}}
-          to={{opacity:1, marginTop: "200px"}}>
+          from={{opacity:0, marginTop: -50}}
+          to={{opacity:1, marginTop: 200}}>
           {props => (
             <div style={props}>
               <div id="info" className="text-center">
