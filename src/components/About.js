@@ -49,7 +49,7 @@ class AnimatedProgressbar extends Component {
               backgroundPadding={6}
               styles={{
                 background: {
-                  fill: "#000000"  
+                  fill: "#000000"
                 },
                 text: {
                   fill: "#fff"
@@ -79,13 +79,9 @@ export default class About extends Component {
           <div style={props}>
             <div id="about" className="container-fluid text-center" >
               <div className="about-block">
-                <h2 className="about-title">ABOUT ME</h2>
-                <p>I am a front end developer currently living in Vancouver, Canada. With solid experience in front-end technologies, always focusing on quality, performance and semantic. My passion is being challenged and engaging with projects that require me to work outside my comfort and knowledge set. I keep learning new languages and development techniques.</p>
-              </div>
-              <div className="about-block">
                 <h2 className="about-title">KEY SKILLS</h2>
                 <div id="progressbars" className="row">
-                  <div className="col-sm-4 col-md-4 col-lg-2">
+                  <div className="col-sm-4 col-md-4 col-lg-4 progress-item">
                     <h4><i class="fab fa-html5"></i> HTML</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -96,7 +92,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2">
+                  <div className="col-sm-4 col-md-4 col-lg-4 progress-item">
                     <h4><i class="fab fa-css3-alt"></i> CSS</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -107,7 +103,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2">
+                  <div className="col-sm-4 col-md-4 col-lg-4 progress-item">
                     <h4><i class="fab fa-js-square"></i> JavaScript</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -118,7 +114,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2">
+                  <div className="col-sm-4 col-md-4 col-lg-4 progress-item">
                     <h4 className="jq-logo">{jQLogo} jQuery</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -129,7 +125,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2">
+                  <div className="col-sm-4 col-md-4 col-lg-4 progress-item">
                     <h4><i class="fab fa-bootstrap"></i> Bootstrap</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -140,7 +136,7 @@ export default class About extends Component {
                     </div>
                   </div>
 
-                  <div className="col-sm-4 col-md-4 col-lg-2">
+                  <div className="col-sm-4 col-md-4 col-lg-4 progress-item">
                     <h4><i class="fab fa-react"></i> React</h4>
                     <div style={progressbarsStyle}>
                       <AnimatedProgressbar
@@ -152,11 +148,18 @@ export default class About extends Component {
                   </div>
                 </div>
               </div>
+
+
+              <div className="about-block">
+                <h2 className="about-title">ABOUT ME</h2>
+                <p>I am a front end developer currently living in Vancouver, Canada. With solid experience in front-end technologies, always focusing on quality, performance and semantic. My passion is being challenged and engaging with projects that require me to work outside my comfort and knowledge set. I keep learning new languages and development techniques.</p>
+              </div>
+              
               
               <div className="about-block">
                 <h2 className="about-title text-center">AREAS OF KNOWLEDGE</h2>
                   <div className="row justify-content-center">
-                    <div className="menu-item col-sm-4 col-md-4 col-lg-2"><span class="align-middle">JavaScript ES6</span></div>
+                    <div className="menu-item col-sm-4 col-md-4 col-lg-2">JavaScript</div>
                     <div className="menu-item col-sm-4 col-md-4 col-lg-2">CSS3</div>
                     <div className="menu-item col-sm-4 col-md-4 col-lg-2">DOM</div>
                     <div className="menu-item col-sm-4 col-md-4 col-lg-2">XML/JSON</div>
