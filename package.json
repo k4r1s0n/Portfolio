@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://k4r1s0n.github.io/Portfolio",
   "dependencies": {
-    "axios": "^0.18.0",
     "d3-ease": "^1.0.5",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

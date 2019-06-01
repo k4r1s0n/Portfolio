@@ -74,6 +74,13 @@ body {
     font-size: 0.5em;
   }
 }
+
+@media (max-width: 584px) {
+  .navbar-brand{
+    width: 70%;
+}
+}
+
 .Navbar {
   font-family: 'Audiowide', cursive;
   font-size: 2em;
@@ -93,12 +100,11 @@ body {
                red -1px 1px 0, red 1px -1px 0;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color:#143779!important;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color:#5d8be0!important;
   padding: 5px 0 5px 10px;
-  text-shadow: 7px 7px 10px rgba(0,0,0,0.5);
+  background-color: transparent!important;
 }
-
 
 .navbar-nav a {
   color: #ff9100 !important;
@@ -107,7 +113,7 @@ body {
 
 .navbar-nav a:hover {
   padding: 5px 0 5px 10px !important;
-  color: #143779 !important;
+  color: #5d8be0 !important;
 } 
 
 #info {

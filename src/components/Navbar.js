@@ -4,34 +4,52 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import resume from '../Download/Areas of Knoledge PDF.pdf';
 import Logo from '../img/MyLogoSm.png';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-function Navbar() {
+
+function Navibar() {
   return (
     <div className="Navbar">
-      <nav className="navbar navbar-expand-md fixed-top navbar-light" style={{backgroundColor: "#e3eeff",}}>
-        <a className="navbar-brand" href="https://k4r1s0n.github.io/Portfolio/#/"><img src={Logo} className="img-fluid" alt="logo"></img></a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/">Home</a>
-            <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/about">About</a>
-            <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/projects">Projects</a>
-            <a className="nav-item nav-link" href="https://k4r1s0n.github.io/Portfolio/#/contact">Contact</a>
-            {/* <a className="nav-item nav-link" href="/">Home</a>
-            <a className="nav-item nav-link" href="/#about">About</a>
-            <a className="nav-item nav-link" href="/#projects">Projects</a>
-            <a className="nav-item nav-link" href="/#contact">Contact</a> */}
-          </div>
-        </div>
-      </nav>
+      <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
+        <Navbar.Brand href="https://k4r1s0n.github.io/Portfolio/#/"><img src={Logo} className="img-fluid" alt="logo"></img></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="ml-auto" defaultActiveKey="/" variant="pills">
+          <Nav.Item>
+            <Nav.Link href="https://k4r1s0n.github.io/Portfolio/#/">Home</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="about" href="https://k4r1s0n.github.io/Portfolio/#/about">About</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="projects" href="https://k4r1s0n.github.io/Portfolio/#/projects">Projects</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="contact" href="https://k4r1s0n.github.io/Portfolio/#/contact">Contact</Nav.Link>
+          </Nav.Item>
+
+          {/* <Nav.Item>
+            <Nav.Link href="/">Home</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="about" href="/#about">About</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="projects" href="/#projects">Projects</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="contact" href="/#contact">Contact</Nav.Link>
+          </Nav.Item> */}
+        </Nav>
+        </Navbar.Collapse>
+      </Navbar>
       <Link to={resume} id="download-btn" className="btn btn-warning btn-sm" target="_blank" >DOWNLOAD RESUME</Link>
-      <nav class="navbar fixed-bottom navbar-transparent" style={{fontSize: '20px', height: '40px'}}>
-       <p>Powered by <i class="fab fa-react"></i> React</p>
+      <nav className="navbar fixed-bottom navbar-transparent" style={{fontSize: '20px', height: '40px'}}>
+       <p>Powered by <i className="fab fa-react"></i> React</p>
       </nav>
     </div>
   );
 }
 
-export default Navbar;
+export default Navibar;

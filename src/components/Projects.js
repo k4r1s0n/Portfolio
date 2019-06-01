@@ -148,7 +148,7 @@ export default class Projects extends Component {
     return (
       <div id="projects" className="text-center container">
         <Spring
-          config={{ duration: 2000 }}
+          config={{ duration: 1000 }}
           from={{opacity:0, marginTop: -1000}}
           to={{opacity:1, marginTop: 130}}>
           {props => (
