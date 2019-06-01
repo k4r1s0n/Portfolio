@@ -12,12 +12,12 @@ function Navibar() {
   return (
     <div className="Navbar">
       <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
-        <Navbar.Brand href="https://k4r1s0n.github.io/Portfolio/#/"><img src={Logo} className="img-fluid" alt="logo"></img></Navbar.Brand>
+        <Navbar.Brand><img src={Logo} className="img-fluid" alt="logo"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto" defaultActiveKey="https://k4r1s0n.github.io/Portfolio/#/" variant="pills">
+        <Nav className="ml-auto" defaultActiveKey="home" variant="pills">
           <Nav.Item>
-            <Nav.Link href="https://k4r1s0n.github.io/Portfolio/#/">Home</Nav.Link>
+            <Nav.Link eventKey="home" href="https://k4r1s0n.github.io/Portfolio/#/">Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="about" href="https://k4r1s0n.github.io/Portfolio/#/about">About</Nav.Link>
