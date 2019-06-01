@@ -15,7 +15,7 @@ function Navibar() {
         <Navbar.Brand href="https://k4r1s0n.github.io/Portfolio/#/"><img src={Logo} className="img-fluid" alt="logo"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto" defaultActiveKey="/" variant="pills">
+        <Nav className="ml-auto" defaultActiveKey="https://k4r1s0n.github.io/Portfolio/#/" variant="pills">
           <Nav.Item>
             <Nav.Link href="https://k4r1s0n.github.io/Portfolio/#/">Home</Nav.Link>
           </Nav.Item>
