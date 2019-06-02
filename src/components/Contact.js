@@ -32,7 +32,7 @@ export default class Contact extends Component {
             </Form.Group>
               </div>
             </div>
-            <Button variant="success" type="submit" value="Send">
+            <Button variant="primary" type="submit" value="Send">
               Submit
             </Button>
           </Form>
@@ -43,7 +43,7 @@ export default class Contact extends Component {
             <a href="https://www.linkedin.com/in/alex-i-045b00134/" target="_blank" title="LinkedIn"><i className="fab fa-linkedin"></i></a>
             <a href="mailto:oleksandr.ibrahimov@gmail.com" target="_blank" title="Email"><i className="fas fa-envelope-square"></i></a>
           </ul>
-          <button type="button" className="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
+          <button type="button" className="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
           <i className="fas fa-mobile-alt"></i> Get My Contact Number
           </button>
           <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

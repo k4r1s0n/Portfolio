@@ -73,9 +73,9 @@ body {
 }
 
 .navbar p {
-  color: #ffffff;
-  text-shadow: red 1px 1px 0, red -1px -1px 0, 
-               red -1px 1px 0, red 1px -1px 0;
+  color: #e3eeff;
+  text-shadow: #343a40 1px 1px 0, #343a40 -1px -1px 0, 
+               #343a40 -1px 1px 0, #343a40 1px -1px 0;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -101,7 +101,7 @@ body {
   margin-left: -200px;
   margin-bottom: 200px;
   z-index: 1;
-  color: #143779;
+  color: #343a40;
   position: absolute;
   background-color: #b2c7e483;
   border-radius: 20px;
@@ -117,12 +117,12 @@ body {
 #links a {
   font-size: 50px;
   padding: 10px;
-  color: #143779; 
+  color: #343a40; 
 }
 
 #links a:hover {
   padding: 5px 0 5px 10px;
-  color: white;
+  color: #ff9100;
 }
 
 #home-text {
@@ -131,7 +131,7 @@ body {
 
 #home-nav {
   margin-top: 13px;
-  background: #143779;
+  background: #343a40;
   height: 55px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -152,6 +152,7 @@ body {
   padding-left: 7px;
   padding-right: 7px;
   transition: 0.5s all;
+  color: #ff9100;
 }
 
 #links a {
@@ -160,7 +161,7 @@ body {
 
 #home-nav a:hover {
   padding: 10px 0 10px 10px;
-  color: white;
+  color: #5d8be0;
 }
 
 #about {
@@ -281,7 +282,7 @@ body {
 #contact-links a {
   font-size: 40px;
   padding: 10px;
-  color: #143779; 
+  color: #343a40; 
   transition: 0.5s all;
 }
 

@@ -15,33 +15,33 @@ function Navibar() {
         <Navbar.Brand><img src={Logo} className="img-fluid" alt="logo"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto" defaultActiveKey="home" variant="pills">
-          <Nav.Item>
-            <Nav.Link eventKey="home" href="https://k4r1s0n.github.io/Portfolio/#/">Home</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="about" href="https://k4r1s0n.github.io/Portfolio/#/about">About</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="projects" href="https://k4r1s0n.github.io/Portfolio/#/projects">Projects</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="contact" href="https://k4r1s0n.github.io/Portfolio/#/contact">Contact</Nav.Link>
-          </Nav.Item>
+          <Nav className="ml-auto" defaultActiveKey="home" variant="pills">
+            <Nav.Item>
+              <Nav.Link eventKey="home" href="https://k4r1s0n.github.io/Portfolio/#/">Home</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="about" href="https://k4r1s0n.github.io/Portfolio/#/about">About</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="projects" href="https://k4r1s0n.github.io/Portfolio/#/projects">Projects</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="contact" href="https://k4r1s0n.github.io/Portfolio/#/contact">Contact</Nav.Link>
+            </Nav.Item>
 
-          {/* <Nav.Item>
-            <Nav.Link href="/">Home</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="about" href="/#about">About</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="projects" href="/#projects">Projects</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="contact" href="/#contact">Contact</Nav.Link>
-          </Nav.Item> */}
-        </Nav>
+            {/* <Nav.Item>
+              <Nav.Link eventKey="home" href="/">Home</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="about" href="/#about">About</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="projects" href="/#projects">Projects</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="contact" href="/#contact">Contact</Nav.Link>
+            </Nav.Item> */}
+          </Nav>
         </Navbar.Collapse>
       </Navbar>
       <Link to={resume} id="download-btn" className="btn btn-warning btn-sm" target="_blank" >DOWNLOAD RESUME</Link>
