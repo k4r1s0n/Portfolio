@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab8a678ff34e23ea6f3e5591d55f97ec",
+    "revision": "480147a2345fae99e815ae6d7a7376ec",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.344a6b9d.chunk.css"
   },
   {
-    "revision": "1fcad81eda9318901361",
+    "revision": "499921898ffb606ea189",
     "url": "/Portfolio/static/css/main.2b0eb297.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.548109a6.chunk.js"
   },
   {
-    "revision": "1fcad81eda9318901361",
-    "url": "/Portfolio/static/js/main.3d4c619a.chunk.js"
+    "revision": "499921898ffb606ea189",
+    "url": "/Portfolio/static/js/main.1f9f1e09.chunk.js"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
     "url": "/Portfolio/static/js/runtime~main.8760695a.js"
   },
   {
-    "revision": "7c425582fa4e1a5e8efd2bf490bf8d6e",
-    "url": "/Portfolio/static/media/Areas of Knoledge PDF.7c425582.pdf"
+    "revision": "ec782c8b8409b4e4a353fdae5d75e229",
+    "url": "/Portfolio/static/media/Alex Ibrahimov Resume.ec782c8b.pdf"
   },
   {
     "revision": "9f25f13c43a5f4fceb59c29ac622dd6d",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Mountains.5403314f.jpg"
   },
   {
-    "revision": "203e4b2aca8b95e8fe1594c6072b0565",
-    "url": "/Portfolio/static/media/MyLogoSm.203e4b2a.png"
+    "revision": "d5ddc45c85cea4f09d8ee2aa518a3069",
+    "url": "/Portfolio/static/media/MyLogoSm.d5ddc45c.png"
   },
   {
     "revision": "f569114a465948338b53d3e4bcb3ecf4",
