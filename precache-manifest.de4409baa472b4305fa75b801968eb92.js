@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3efdba2703ace6ee244bb9c5e8250613",
+    "revision": "ea9c79aacb9276ce84bb48f009153492",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.344a6b9d.chunk.css"
   },
   {
-    "revision": "30e00467763908200881",
+    "revision": "02ec1506bb3f9e8f41bd",
     "url": "/Portfolio/static/css/main.2b0eb297.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.548109a6.chunk.js"
   },
   {
-    "revision": "30e00467763908200881",
-    "url": "/Portfolio/static/js/main.d8caf6fd.chunk.js"
+    "revision": "02ec1506bb3f9e8f41bd",
+    "url": "/Portfolio/static/js/main.0e0ead6f.chunk.js"
   },
   {
     "revision": "591eb5beb99e69ed8d3e",
     "url": "/Portfolio/static/js/runtime~main.8760695a.js"
   },
   {
-    "revision": "2123a72d61c872c43084b9dd3493d301",
-    "url": "/Portfolio/static/media/Alex Ibrahimov Resume.2123a72d.pdf"
+    "revision": "065ac828ecbf0ef2f2fb2af608506250",
+    "url": "/Portfolio/static/media/Alex Ibrahimov Resume.065ac828.pdf"
   },
   {
     "revision": "9f25f13c43a5f4fceb59c29ac622dd6d",
