@@ -15,7 +15,7 @@ export default class Home extends Component {
               <div id="info" className="text-center">
                 <img id="logo" src={logo} alt="logo"/>
                 <div id="home-text">
-                  <h1>Alex Ibragimov</h1>
+                  <h1>Hi, I am Alex Ibrahimov</h1>
                   <h3>Front End Developer</h3>
                 </div>
                 <div id="links">

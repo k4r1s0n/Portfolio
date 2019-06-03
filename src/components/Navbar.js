@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {Link} from "react-router-dom";
-import resume from '../Download/Areas of Knoledge PDF.pdf';
+import resume from '../Download/Alex Ibrahimov Resume.pdf';
 import Logo from '../img/MyLogoSm.png';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -16,7 +16,7 @@ function Navibar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="home" variant="pills">
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link eventKey="home" href="https://k4r1s0n.github.io/Portfolio/#/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -27,9 +27,9 @@ function Navibar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="contact" href="https://k4r1s0n.github.io/Portfolio/#/contact">Contact</Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link eventKey="home" href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -40,7 +40,7 @@ function Navibar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="contact" href="/#contact">Contact</Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
